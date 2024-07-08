@@ -1,0 +1,32 @@
+[0.019s] Invoking command in '/home/abhishek/my_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/abhishek/my_ws/build/my_bot -- -j16 -l16
+[0.087s] Invoked command in '/home/abhishek/my_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/abhishek/my_ws/build/my_bot -- -j16 -l16
+[0.144s] Invoking command in '/home/abhishek/my_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/abhishek/my_ws/build/my_bot
+[0.157s] -- Install configuration: ""
+[0.158s] -- Execute custom install script
+[0.159s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/config/drive_bot.rviz2.rviz
+[0.159s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.159s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.160s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.160s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.160s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.160s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.161s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.161s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.161s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/worlds/obstacle.world
+[0.161s] -- Symlinking: /home/abhishek/my_ws/install/my_bot/share/my_bot/worlds/obstacle.world1
+[0.178s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.178s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.178s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.179s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.179s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.179s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.179s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.179s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.180s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.180s] -- Symlinking: /home/abhishek/my_ws/install/my_bot/share/my_bot/package.dsv
+[0.196s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.196s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.196s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.196s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/package.xml
+[0.201s] Invoked command in '/home/abhishek/my_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/abhishek/my_ws/build/my_bot

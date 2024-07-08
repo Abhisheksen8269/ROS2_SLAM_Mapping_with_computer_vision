@@ -1,0 +1,41 @@
+[0.038s] Invoking command in '/home/abhishek/my_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake /home/abhishek/my_ws/src2/my_robo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abhishek/my_ws/install/my_bot
+[0.076s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.559s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.595s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.809s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.828s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.830s] -- Added test 'lint_cmake' to check CMake code style
+[0.831s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.842s] -- Added test 'xmllint' to check XML markup files
+[0.844s] -- Configuring done
+[0.852s] -- Generating done
+[0.854s] -- Build files have been written to: /home/abhishek/my_ws/build/my_bot
+[0.860s] Invoked command in '/home/abhishek/my_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake /home/abhishek/my_ws/src2/my_robo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/abhishek/my_ws/install/my_bot
+[0.864s] Invoking command in '/home/abhishek/my_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/abhishek/my_ws/build/my_bot -- -j16 -l16
+[0.967s] Invoked command in '/home/abhishek/my_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/abhishek/my_ws/build/my_bot -- -j16 -l16
+[1.045s] Invoking command in '/home/abhishek/my_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/abhishek/my_ws/build/my_bot
+[1.067s] -- Install configuration: ""
+[1.068s] -- Execute custom install script
+[1.069s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.073s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.074s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.074s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.074s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.075s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.075s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.076s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.076s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.077s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.077s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.078s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.078s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.078s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.079s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.079s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.080s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.081s] -- Symlinking: /home/abhishek/my_ws/install/my_bot/share/my_bot/package.dsv
+[1.105s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.106s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.106s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.107s] -- Up-to-date symlink: /home/abhishek/my_ws/install/my_bot/share/my_bot/package.xml
+[1.111s] Invoked command in '/home/abhishek/my_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abhishek/install/my_robot_cont:/home/abhishek/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/abhishek/my_ws/build/my_bot

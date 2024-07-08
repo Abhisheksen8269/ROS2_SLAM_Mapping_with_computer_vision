@@ -1,0 +1,434 @@
+[0.000000] (-) TimerEvent: {}
+[0.000311] (-) JobUnselected: {'identifier': 'ball_tracker'}
+[0.000412] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.000444] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000458] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.008982] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.009387] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/abhishek/my_ws/src2/rplidar_ros2', '-DCMAKE_INSTALL_PREFIX=/home/abhishek/my_ws/install/rplidar_ros'], 'cwd': '/home/abhishek/my_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'abhishek'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abhishek'), ('OLDPWD', '/home/abhishek/my_ws/src2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/abhishek/path_planning_ws/install:/home/abhishek/ros2_ws/install:/home/abhishek/my_ws/install:/home/abhishek/Abhi_ws/install:/home/abhishek/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abhishek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abhishek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/abhishek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/abhishek-Aspire-A715-51G:@/tmp/.ICE-unix/1901,unix/abhishek-Aspire-A715-51G:/tmp/.ICE-unix/1901'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13634682_4995_4cc1_8d8b_4171c77bf634'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.386'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abhishek/path_planning_ws/install/maze_bot:/home/abhishek/ros2_ws/install/my_robot_control:/home/abhishek/my_ws/install/my_bot:/home/abhishek/my_ws/install/ball_tracker:/home/abhishek/Abhi_ws/install/articubot_one:/home/abhishek/install/my_robot_cont:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abhishek/my_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abhishek/path_planning_ws/install/maze_bot/lib/python3.10/site-packages:/home/abhishek/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/home/abhishek/my_ws/build/ball_tracker:/home/abhishek/my_ws/install/ball_tracker/lib/python3.10/site-packages:/home/abhishek/install/my_robot_cont/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/abhishek/my_ws/install/my_bot:/home/abhishek/Abhi_ws/install/articubot_one:/home/abhishek/path_planning_ws/install/maze_bot:/home/abhishek/ros2_ws/install/my_robot_control:/home/abhishek/my_ws/install/ball_tracker:/home/abhishek/install/my_robot_cont:/opt/ros/humble')]), 'shell': False}
+[0.099710] (-) TimerEvent: {}
+[0.100243] (rplidar_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.168979] (rplidar_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.177043] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199879] (-) TimerEvent: {}
+[0.228135] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.235439] (rplidar_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.236456] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.237350] (rplidar_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.240792] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300158] (-) TimerEvent: {}
+[0.300738] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.308775] (rplidar_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.309053] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.309454] (rplidar_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.313992] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.400188] (-) TimerEvent: {}
+[0.500463] (-) TimerEvent: {}
+[0.600769] (-) TimerEvent: {}
+[0.639900] (rplidar_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700867] (-) TimerEvent: {}
+[0.750178] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801084] (-) TimerEvent: {}
+[0.861621] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.868733] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.878338] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.892789] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901178] (-) TimerEvent: {}
+[0.911236] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.976492] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.979371] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001473] (-) TimerEvent: {}
+[1.073631] (rplidar_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.093811] (rplidar_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.101540] (-) TimerEvent: {}
+[1.129705] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.139968] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.194405] (rplidar_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.194735] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201654] (-) TimerEvent: {}
+[1.251597] (rplidar_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.252494] (rplidar_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301795] (-) TimerEvent: {}
+[1.402199] (-) TimerEvent: {}
+[1.502562] (-) TimerEvent: {}
+[1.556462] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.573963] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[1.575042] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/abhishek/my_ws/build/rplidar_ros\n'}
+[1.581625] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.582169] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.583457] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abhishek/my_ws/build/rplidar_ros', '--', '-j16', '-l16'], 'cwd': '/home/abhishek/my_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'abhishek'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abhishek'), ('OLDPWD', '/home/abhishek/my_ws/src2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/abhishek/path_planning_ws/install:/home/abhishek/ros2_ws/install:/home/abhishek/my_ws/install:/home/abhishek/Abhi_ws/install:/home/abhishek/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abhishek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abhishek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/abhishek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/abhishek-Aspire-A715-51G:@/tmp/.ICE-unix/1901,unix/abhishek-Aspire-A715-51G:/tmp/.ICE-unix/1901'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13634682_4995_4cc1_8d8b_4171c77bf634'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.386'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abhishek/path_planning_ws/install/maze_bot:/home/abhishek/ros2_ws/install/my_robot_control:/home/abhishek/my_ws/install/my_bot:/home/abhishek/my_ws/install/ball_tracker:/home/abhishek/Abhi_ws/install/articubot_one:/home/abhishek/install/my_robot_cont:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abhishek/my_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abhishek/path_planning_ws/install/maze_bot/lib/python3.10/site-packages:/home/abhishek/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/home/abhishek/my_ws/build/ball_tracker:/home/abhishek/my_ws/install/ball_tracker/lib/python3.10/site-packages:/home/abhishek/install/my_robot_cont/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/abhishek/my_ws/install/my_bot:/home/abhishek/Abhi_ws/install/articubot_one:/home/abhishek/path_planning_ws/install/maze_bot:/home/abhishek/ros2_ws/install/my_robot_control:/home/abhishek/my_ws/install/ball_tracker:/home/abhishek/install/my_robot_cont:/opt/ros/humble')]), 'shell': False}
+[1.602759] (-) TimerEvent: {}
+[1.623150] (rplidar_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[1.623562] (rplidar_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[1.623690] (rplidar_ros) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[1.625740] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[1.626016] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[1.626143] (rplidar_ros) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[1.702904] (-) TimerEvent: {}
+[1.803372] (-) TimerEvent: {}
+[1.903889] (-) TimerEvent: {}
+[1.938432] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[1.939108] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[1.939261] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[1.939361] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[1.939456] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[1.939548] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[1.939640] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[1.939728] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[1.939817] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[1.939903] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[1.939985] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.940064] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.940146] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.940230] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.940314] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.940399] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.940483] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.940596] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[1.940729] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[1.940826] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[1.940917] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[1.941047] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[2.000534] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[2.000805] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[2.000929] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[2.001208] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.001356] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.001460] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.001559] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[2.001659] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[2.001759] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[2.001861] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.001958] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.002055] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.004091] (-) TimerEvent: {}
+[2.017385] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.017695] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.017845] (rplidar_ros) StderrLine: {'line': b'  438 |         if (\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K) {\n'}
+[2.017969] (rplidar_ros) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.022418] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[2.023332] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/sdkcommon.h:40\x1b[m\x1b[K,\n'}
+[2.023627] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[2.023752] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.023884] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.024002] (rplidar_ros) StderrLine: {'line': b'  726 |             assert(\x1b[01;35m\x1b[Kans == (int)len\x1b[m\x1b[K);\n'}
+[2.024160] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.045427] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[2.045656] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[2.045757] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[2.045847] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.046066] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.046176] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.046261] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[2.046344] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[2.046426] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[2.046506] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.046591] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.046671] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.048176] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[2.048312] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.048405] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.048494] (rplidar_ros) StderrLine: {'line': b'   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[2.048577] (rplidar_ros) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.049184] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::join(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.049348] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.049446] (rplidar_ros) StderrLine: {'line': b'  129 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[2.049531] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.085525] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.085775] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.086025] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[2.086131] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.086219] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.086303] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.086388] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[2.086470] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.086554] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.086645] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.086757] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[2.086849] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.086950] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.087043] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.087145] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[2.087227] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.101898] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[2.102353] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[2.102617] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[2.102730] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.102837] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.102919] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.103000] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[2.103138] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/sdkcommon.h:48\x1b[m\x1b[K,\n'}
+[2.103222] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:35\x1b[m\x1b[K:\n'}
+[2.103303] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.103386] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.103469] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.104149] (-) TimerEvent: {}
+[2.204513] (-) TimerEvent: {}
+[2.244867] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.245047] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.245096] (rplidar_ros) StderrLine: {'line': b'  121 | u_result RPlidarDriverImplCommon::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[2.245134] (rplidar_ros) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.245787] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.245889] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:275:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.245934] (rplidar_ros) StderrLine: {'line': b'  275 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[2.245972] (rplidar_ros) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.248288] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::standalone::rplidar::RPlidarDriverImplCommon::_getSyncBitByAngle(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.248392] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:671:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Klast_angleInc_q16\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.248448] (rplidar_ros) StderrLine: {'line': b'  671 |     static int \x1b[01;35m\x1b[Klast_angleInc_q16\x1b[m\x1b[K = 0;\n'}
+[2.248486] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.248522] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:673:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.248560] (rplidar_ros) StderrLine: {'line': b'  673 |     int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree\n'}
+[2.248597] (rplidar_ros) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.248919] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::_cacheUltraCapsuledScanData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.249010] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:771:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_scan_count\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.249056] (rplidar_ros) StderrLine: {'line': b'  771 |     size_t                                   \x1b[01;35m\x1b[Klast_scan_count\x1b[m\x1b[K = 0;\n'}
+[2.249094] (rplidar_ros) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.249582] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.249682] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:850:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.249726] (rplidar_ros) StderrLine: {'line': b'  850 |             int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree\n'}
+[2.249905] (rplidar_ros) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.249961] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_dense_capsuleToNormal(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.250012] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:903:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.250049] (rplidar_ros) StderrLine: {'line': b'  903 |             const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[2.250085] (rplidar_ros) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.250823] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.250911] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1027:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around \xe2\x80\x98\x1b[01m\x1b[K-\x1b[m\x1b[K\xe2\x80\x99 in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.250958] (rplidar_ros) StderrLine: {'line': b' 1027 |     _u8 leftBytes = \x1b[01;35m\x1b[K4 - len\x1b[m\x1b[K & 0x3;\n'}
+[2.250995] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~\x1b[m\x1b[K\n'}
+[2.251912] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.252005] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1238:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.252092] (rplidar_ros) StderrLine: {'line': b' 1238 |             if ((\x1b[01;35m\x1b[Kdist_predict1 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict1 == 0x1FF)) {\n'}
+[2.252130] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.252171] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1246:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.252208] (rplidar_ros) StderrLine: {'line': b' 1246 |             if ((\x1b[01;35m\x1b[Kdist_predict2 == 0xFFFFFE00\x1b[m\x1b[K) || (dist_predict2 == 0x1FF)) {\n'}
+[2.252242] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.252276] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1256:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.252311] (rplidar_ros) StderrLine: {'line': b' 1256 |                 int \x1b[01;35m\x1b[KsyncBit_check_threshold\x1b[m\x1b[K = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree\n'}
+[2.252352] (rplidar_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.257283] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.257547] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1484:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.257642] (rplidar_ros) StderrLine: {'line': b' 1484 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, \x1b[01;35m\x1b[K_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[2.257727] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.258501] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.258705] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1581:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.258792] (rplidar_ros) StderrLine: {'line': b' 1581 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[K_u32 options\x1b[m\x1b[K, RplidarScanMode* outUsedScanMode)\n'}
+[2.258869] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.260280] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.260497] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1805:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.260586] (rplidar_ros) StderrLine: {'line': b' 1805 | u_result RPlidarDriverImplCommon::stop(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[2.260686] (rplidar_ros) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.263111] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.263400] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:2193:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.263522] (rplidar_ros) StderrLine: {'line': b' 2193 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, \x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[2.263602] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.264025] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.264307] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:2270:83:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.264496] (rplidar_ros) StderrLine: {'line': b' 2270 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[2.264575] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.264686] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.264765] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:2312:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.264840] (rplidar_ros) StderrLine: {'line': b' 2312 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[2.264913] (rplidar_ros) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.283965] (rplidar_ros) StderrLine: {'line': b'/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.284257] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:2025:64:\x1b[m\x1b[K   required from here\n'}
+[2.284355] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.284453] (rplidar_ros) StderrLine: {'line': b' 1991 |     for (i = count - 1; \x1b[01;35m\x1b[Ki >= 0\x1b[m\x1b[K; i--) {\n'}
+[2.284527] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[2.284599] (rplidar_ros) StderrLine: {'line': b'/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::ascendScanData_(TNode*, size_t) [with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.284700] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:2030:67:\x1b[m\x1b[K   required from here\n'}
+[2.284777] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:1991:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.304811] (-) TimerEvent: {}
+[2.337838] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.338057] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/sdk/src/rplidar_driver.cpp:2225:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.338105] (rplidar_ros) StderrLine: {'line': b' 2225 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.338142] (rplidar_ros) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.404734] (-) TimerEvent: {}
+[2.505003] (-) TimerEvent: {}
+[2.605275] (-) TimerEvent: {}
+[2.705622] (-) TimerEvent: {}
+[2.805977] (-) TimerEvent: {}
+[2.906332] (-) TimerEvent: {}
+[3.006699] (-) TimerEvent: {}
+[3.107216] (-) TimerEvent: {}
+[3.207638] (-) TimerEvent: {}
+[3.308006] (-) TimerEvent: {}
+[3.408401] (-) TimerEvent: {}
+[3.508835] (-) TimerEvent: {}
+[3.568358] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[3.568544] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[3.568622] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[3.568733] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.568812] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[3.568878] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.568944] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[3.569010] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[3.569076] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[3.569143] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.569240] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[3.569307] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.608987] (-) TimerEvent: {}
+[3.613556] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.613729] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:248:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.613808] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[3.613875] (rplidar_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.613939] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:248:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.614004] (rplidar_ros) StderrLine: {'line': b'  248 | oid rplidar_node::stop_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[3.614067] (rplidar_ros) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.614128] (rplidar_ros) StderrLine: {'line': b'\n'}
+[3.614190] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.614252] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:259:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.614341] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[3.614403] (rplidar_ros) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.614465] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:259:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.614526] (rplidar_ros) StderrLine: {'line': b'  259 | id rplidar_node::start_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[3.614587] (rplidar_ros) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.614648] (rplidar_ros) StderrLine: {'line': b'\n'}
+[3.617467] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::publish_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.617642] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:362:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.617726] (rplidar_ros) StderrLine: {'line': b'  362 |           for (j = 0; \x1b[01;35m\x1b[Kj < m_angle_compensate_multiple\x1b[m\x1b[K; j++) {\n'}
+[3.617794] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.617983] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:383:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.618097] (rplidar_ros) StderrLine: {'line': b'  383 |       for (size_t x = start_node, y = 0; \x1b[01;35m\x1b[Kx < end_node\x1b[m\x1b[K; ++x, ++y) {\n'}
+[3.618169] (rplidar_ros) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.618234] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:390:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.618312] (rplidar_ros) StderrLine: {'line': b'  390 |     float \x1b[01;35m\x1b[Kangle_min\x1b[m\x1b[K = deg_2_rad(0.0f);\n'}
+[3.618376] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.618438] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/rplidar_node.cpp:391:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.618507] (rplidar_ros) StderrLine: {'line': b'  391 |     float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = deg_2_rad(359.0f);\n'}
+[3.618568] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.709085] (-) TimerEvent: {}
+[3.809489] (-) TimerEvent: {}
+[3.909885] (-) TimerEvent: {}
+[4.010283] (-) TimerEvent: {}
+[4.110689] (-) TimerEvent: {}
+[4.211118] (-) TimerEvent: {}
+[4.311519] (-) TimerEvent: {}
+[4.411938] (-) TimerEvent: {}
+[4.512314] (-) TimerEvent: {}
+[4.612742] (-) TimerEvent: {}
+[4.713023] (-) TimerEvent: {}
+[4.813428] (-) TimerEvent: {}
+[4.913814] (-) TimerEvent: {}
+[5.014209] (-) TimerEvent: {}
+[5.114643] (-) TimerEvent: {}
+[5.215057] (-) TimerEvent: {}
+[5.315469] (-) TimerEvent: {}
+[5.415883] (-) TimerEvent: {}
+[5.516291] (-) TimerEvent: {}
+[5.616725] (-) TimerEvent: {}
+[5.717044] (-) TimerEvent: {}
+[5.817363] (-) TimerEvent: {}
+[5.917790] (-) TimerEvent: {}
+[5.978674] (rplidar_ros) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[6.018015] (-) TimerEvent: {}
+[6.118523] (-) TimerEvent: {}
+[6.219139] (-) TimerEvent: {}
+[6.228254] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[6.246252] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\x1b[0m\n'}
+[6.319428] (-) TimerEvent: {}
+[6.387819] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[6.388329] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[6.388462] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[6.388546] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[6.388621] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[6.388742] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[6.388825] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[6.388900] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[6.388977] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[6.389051] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[6.389125] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.389196] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.389324] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.389398] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.389468] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.389557] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.389688] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.389757] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[6.389822] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[6.389888] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[6.389955] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[6.390026] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[6.419574] (-) TimerEvent: {}
+[6.520225] (-) TimerEvent: {}
+[6.620856] (-) TimerEvent: {}
+[6.721387] (-) TimerEvent: {}
+[6.821951] (-) TimerEvent: {}
+[6.922400] (-) TimerEvent: {}
+[7.022785] (-) TimerEvent: {}
+[7.123203] (-) TimerEvent: {}
+[7.223609] (-) TimerEvent: {}
+[7.324019] (-) TimerEvent: {}
+[7.424470] (-) TimerEvent: {}
+[7.525012] (-) TimerEvent: {}
+[7.625517] (-) TimerEvent: {}
+[7.726503] (-) TimerEvent: {}
+[7.827278] (-) TimerEvent: {}
+[7.927718] (-) TimerEvent: {}
+[7.945057] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[7.945365] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[7.945445] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[7.945512] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.945599] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.945665] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.945729] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[7.945797] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[7.945861] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[7.945923] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.945988] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[7.946051] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.028143] (-) TimerEvent: {}
+[8.129041] (-) TimerEvent: {}
+[8.229694] (-) TimerEvent: {}
+[8.265594] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[8.265829] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/abhishek/my_ws/src2/rplidar_ros2/include/rplidar_node.hpp:76:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.265931] (rplidar_ros) StderrLine: {'line': b'   76 | static float \x1b[01;35m\x1b[KgetAngle\x1b[m\x1b[K(const rplidar_response_measurement_node_hq_t & node)\n'}
+[8.265999] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.329928] (-) TimerEvent: {}
+[8.344074] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[8.430159] (-) TimerEvent: {}
+[8.475558] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[8.485307] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.510544] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[8.517091] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abhishek/my_ws/build/rplidar_ros'], 'cwd': '/home/abhishek/my_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'abhishek'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abhishek'), ('OLDPWD', '/home/abhishek/my_ws/src2'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2268'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/abhishek/path_planning_ws/install:/home/abhishek/ros2_ws/install:/home/abhishek/my_ws/install:/home/abhishek/Abhi_ws/install:/home/abhishek/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'abhishek'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abhishek'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/abhishek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/abhishek-Aspire-A715-51G:@/tmp/.ICE-unix/1901,unix/abhishek-Aspire-A715-51G:/tmp/.ICE-unix/1901'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13634682_4995_4cc1_8d8b_4171c77bf634'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.386'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abhishek/path_planning_ws/install/maze_bot:/home/abhishek/ros2_ws/install/my_robot_control:/home/abhishek/my_ws/install/my_bot:/home/abhishek/my_ws/install/ball_tracker:/home/abhishek/Abhi_ws/install/articubot_one:/home/abhishek/install/my_robot_cont:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abhishek/my_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abhishek/path_planning_ws/install/maze_bot/lib/python3.10/site-packages:/home/abhishek/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/home/abhishek/my_ws/build/ball_tracker:/home/abhishek/my_ws/install/ball_tracker/lib/python3.10/site-packages:/home/abhishek/install/my_robot_cont/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/abhishek/my_ws/install/my_bot:/home/abhishek/Abhi_ws/install/articubot_one:/home/abhishek/path_planning_ws/install/maze_bot:/home/abhishek/ros2_ws/install/my_robot_control:/home/abhishek/my_ws/install/ball_tracker:/home/abhishek/install/my_robot_cont:/opt/ros/humble')]), 'shell': False}
+[8.523658] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.524352] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[8.524528] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/abhishek/my_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[8.524697] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[8.524788] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[8.524862] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[8.524937] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[8.525056] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[8.525171] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[8.525240] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[8.525331] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[8.525400] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[8.525468] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[8.525561] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[8.525633] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[8.525696] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[8.528563] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/abhishek/my_ws/install/rplidar_ros/lib/librplidar_composition_node.so" to ""\n'}
+[8.528973] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/include\n'}
+[8.529061] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[8.529175] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/include/visibility.h\n'}
+[8.529272] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/abhishek/my_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[8.529379] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[8.529478] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[8.529587] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[8.529694] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[8.529787] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[8.529892] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[8.529971] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[8.530064] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[8.530158] (-) TimerEvent: {}
+[8.530261] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[8.530344] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[8.530415] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[8.530478] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[8.530542] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[8.530604] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.530666] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.530728] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[8.530790] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[8.530852] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/abhishek/my_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[8.531757] (rplidar_ros) CommandEnded: {'returncode': 0}
+[8.574238] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[8.575324] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[0.347s] Invoking command in '/home/abhishek/my_ws/build/my_robo': PYTHONPATH=/home/abhishek/my_ws/build/my_robo/prefix_override:/home/abhishek/my_ws/install/my_robo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhishek/my_ws/build/my_robo/build --no-deps symlink_data
+[0.505s] running develop
+[0.581s] running egg_info
+[0.581s] creating my_robo.egg-info
+[0.581s] writing my_robo.egg-info/PKG-INFO
+[0.581s] writing dependency_links to my_robo.egg-info/dependency_links.txt
+[0.581s] writing entry points to my_robo.egg-info/entry_points.txt
+[0.581s] writing requirements to my_robo.egg-info/requires.txt
+[0.581s] writing top-level names to my_robo.egg-info/top_level.txt
+[0.581s] writing manifest file 'my_robo.egg-info/SOURCES.txt'
+[0.582s] reading manifest file 'my_robo.egg-info/SOURCES.txt'
+[0.583s] writing manifest file 'my_robo.egg-info/SOURCES.txt'
+[0.584s] running build_ext
+[0.584s] Creating /home/abhishek/my_ws/install/my_robo/lib/python3.10/site-packages/my-robo.egg-link (link to .)
+[0.584s] 
+[0.584s] Installed /home/abhishek/my_ws/build/my_robo
+[0.584s] running symlink_data
+[0.584s] creating /home/abhishek/my_ws/install/my_robo/share/ament_index
+[0.584s] creating /home/abhishek/my_ws/install/my_robo/share/ament_index/resource_index
+[0.584s] creating /home/abhishek/my_ws/install/my_robo/share/ament_index/resource_index/packages
+[0.585s] symbolically linking /home/abhishek/my_ws/build/my_robo/resource/my_robo -> /home/abhishek/my_ws/install/my_robo/share/ament_index/resource_index/packages
+[0.585s] symbolically linking /home/abhishek/my_ws/build/my_robo/package.xml -> /home/abhishek/my_ws/install/my_robo/share/my_robo
+[0.607s] Invoked command in '/home/abhishek/my_ws/build/my_robo' returned '0': PYTHONPATH=/home/abhishek/my_ws/build/my_robo/prefix_override:/home/abhishek/my_ws/install/my_robo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhishek/my_ws/build/my_robo/build --no-deps symlink_data

@@ -1,0 +1,59 @@
+[0.736s] Invoking command in '/home/abhishek/my_ws/build/ball_tracker': PYTHONPATH=/home/abhishek/my_ws/build/ball_tracker/prefix_override:/home/abhishek/my_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhishek/my_ws/build/ball_tracker/build --no-deps symlink_data
+[0.847s] /home/abhishek/.local/lib/python3.10/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.847s] !!
+[0.847s] 
+[0.847s]         ********************************************************************************
+[0.848s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.848s]         versions. Please use the underscore name 'script_dir' instead.
+[0.848s] 
+[0.848s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[0.848s]         or your builds will no longer be supported.
+[0.848s] 
+[0.848s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.848s]         ********************************************************************************
+[0.848s] 
+[0.848s] !!
+[0.848s]   opt = self.warn_dash_deprecation(opt, section)
+[0.989s] running develop
+[0.992s] /home/abhishek/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.992s] !!
+[0.992s] 
+[0.992s]         ********************************************************************************
+[0.992s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.992s]         Instead, use pypa/build, pypa/installer or other
+[0.992s]         standards-based tools.
+[0.992s] 
+[0.992s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.992s]         ********************************************************************************
+[0.992s] 
+[0.992s] !!
+[0.992s]   easy_install.initialize_options(self)
+[1.155s] running egg_info
+[1.155s] creating ball_tracker.egg-info
+[1.165s] writing ball_tracker.egg-info/PKG-INFO
+[1.166s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[1.166s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[1.166s] writing requirements to ball_tracker.egg-info/requires.txt
+[1.166s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[1.166s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.188s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.189s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.204s] running build_ext
+[1.204s] Creating /home/abhishek/my_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[1.205s] Installing detect_ball script to /home/abhishek/my_ws/install/ball_tracker/lib/ball_tracker
+[1.205s] Installing detect_ball_3d script to /home/abhishek/my_ws/install/ball_tracker/lib/ball_tracker
+[1.205s] Installing follow_ball script to /home/abhishek/my_ws/install/ball_tracker/lib/ball_tracker
+[1.205s] 
+[1.205s] Installed /home/abhishek/my_ws/build/ball_tracker
+[1.205s] running symlink_data
+[1.205s] creating /home/abhishek/my_ws/install/ball_tracker/share/ament_index
+[1.205s] creating /home/abhishek/my_ws/install/ball_tracker/share/ament_index/resource_index
+[1.205s] creating /home/abhishek/my_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[1.206s] symbolically linking /home/abhishek/my_ws/build/ball_tracker/resource/ball_tracker -> /home/abhishek/my_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[1.206s] symbolically linking /home/abhishek/my_ws/build/ball_tracker/package.xml -> /home/abhishek/my_ws/install/ball_tracker/share/ball_tracker
+[1.206s] creating /home/abhishek/my_ws/install/ball_tracker/share/ball_tracker/launch
+[1.206s] symbolically linking /home/abhishek/my_ws/build/ball_tracker/launch/example_launch_include.launch.py -> /home/abhishek/my_ws/install/ball_tracker/share/ball_tracker/launch
+[1.206s] symbolically linking /home/abhishek/my_ws/build/ball_tracker/launch/ball_tracker.launch.py -> /home/abhishek/my_ws/install/ball_tracker/share/ball_tracker/launch
+[1.206s] creating /home/abhishek/my_ws/install/ball_tracker/share/ball_tracker/config
+[1.206s] symbolically linking /home/abhishek/my_ws/build/ball_tracker/config/ball_tracker_params_example.yaml -> /home/abhishek/my_ws/install/ball_tracker/share/ball_tracker/config
+[1.248s] Invoked command in '/home/abhishek/my_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/abhishek/my_ws/build/ball_tracker/prefix_override:/home/abhishek/my_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/abhishek/my_ws/build/ball_tracker/build --no-deps symlink_data

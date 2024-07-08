@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+my_robo/__init__.py
+my_robo.egg-info/PKG-INFO
+my_robo.egg-info/SOURCES.txt
+my_robo.egg-info/dependency_links.txt
+my_robo.egg-info/entry_points.txt
+my_robo.egg-info/requires.txt
+my_robo.egg-info/top_level.txt
+my_robo.egg-info/zip-safe
+resource/my_robo

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating my_robo.egg-info
+writing my_robo.egg-info/PKG-INFO
+writing dependency_links to my_robo.egg-info/dependency_links.txt
+writing entry points to my_robo.egg-info/entry_points.txt
+writing requirements to my_robo.egg-info/requires.txt
+writing top-level names to my_robo.egg-info/top_level.txt
+writing manifest file 'my_robo.egg-info/SOURCES.txt'
+reading manifest file 'my_robo.egg-info/SOURCES.txt'
+writing manifest file 'my_robo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abhishek/my_ws/install/my_robo/lib/python3.10/site-packages/my-robo.egg-link (link to .)
+
+Installed /home/abhishek/my_ws/build/my_robo
+running symlink_data
+creating /home/abhishek/my_ws/install/my_robo/share/ament_index
+creating /home/abhishek/my_ws/install/my_robo/share/ament_index/resource_index
+creating /home/abhishek/my_ws/install/my_robo/share/ament_index/resource_index/packages
+symbolically linking /home/abhishek/my_ws/build/my_robo/resource/my_robo -> /home/abhishek/my_ws/install/my_robo/share/ament_index/resource_index/packages
+symbolically linking /home/abhishek/my_ws/build/my_robo/package.xml -> /home/abhishek/my_ws/install/my_robo/share/my_robo
